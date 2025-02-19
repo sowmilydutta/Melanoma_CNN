@@ -26,8 +26,6 @@ In order to address the challenge of class imbalance, the Augmentor Python packa
 
 ## Model Architecture
 
-### **Summary of the CNN Model Architecture**  
-
 This convolutional neural network (CNN) is built using the **Keras Sequential API** for a **9-class classification problem**. The architecture includes the following layers:
 
 1. **Data Augmentation Layer**  
@@ -53,9 +51,7 @@ This convolutional neural network (CNN) is built using the **Keras Sequential AP
 
 This model is structured to balance feature extraction, dimensionality reduction, and overfitting prevention, making it well-suited for image classification tasks. 🚀
 
-## Model Summar
-
-**Summary:**
+## Model Summary
 
 These graphs depict the training and validation performance of a machine learning model over 50 epochs.
 
@@ -72,10 +68,6 @@ These graphs depict the training and validation performance of a machine learnin
 **In essence, the model is learning well on the training data but is starting to show signs of overfitting. Further steps like regularization or early stopping might be needed to improve generalization.**
 
 ## Model Evaluation
-Absolutely, let's break down a model evaluation based on the graphs provided:
-
-**Model Evaluation:**
-
 
 **1. Training Performance:**
 
@@ -108,7 +100,6 @@ Absolutely, let's break down a model evaluation based on the graphs provided:
 
 The model shows promising results on the training data, but exhibits signs of overfitting. Further steps are needed to improve generalization and achieve better performance on unseen data. The validation metrics suggest that the model has reached a point where further training without adjustments is unlikely to yield significant improvements. The suggested improvements focus on mitigating overfitting and enhancing the model's ability to generalize.
 
-
 ## Technologies Used
 
 - [Python](https://www.python.org/) - version 3.11.4
@@ -117,8 +108,6 @@ The model shows promising results on the training data, but exhibits signs of ov
 - [Pandas](https://pandas.pydata.org/) - version 1.5.3
 - [Seaborn](https://seaborn.pydata.org/) - version 0.12.2
 - [Tensorflow](https://www.tensorflow.org/) - version 2.15.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 
